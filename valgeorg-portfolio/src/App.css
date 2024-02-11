@@ -3,9 +3,9 @@
 
 /***NAVBAR**/
 .navbar .nav-link {
-  color: white !important; /* Make links white */
-  font-weight: bold !important; /* Increase font weight */
-  font-family: 'Cursive', sans-serif !important; /* Apply cursive font style */
+  color: white !important; 
+  font-weight: bold !important; 
+  font-family: 'Cursive', sans-serif !important; 
   margin: 0 10px;
 }
 .navbar .nav-link:hover {
