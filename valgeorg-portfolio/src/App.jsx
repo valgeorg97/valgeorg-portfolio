@@ -1,13 +1,25 @@
-import { useState } from 'react'
+import Navbar from './components/Navbar/Navbar';
+import Home from "./components/Home/Home";
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contacts from './components/Contacts/Contacts';
+import NotFound from './components/NotFound/NotFound';
+import { Route, Routes} from 'react-router-dom';
 import './App.css'
 
 function App() {
-
   return (
     <>
-    <h1>hey</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contacts" element={<Contacts/>} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
