@@ -11,3 +11,19 @@
 .navbar .nav-link:hover {
   color:#03FA6E !important;
 }
+
+/***About***/
+.skills-section {
+  text-align: left;
+}
+
+.skills-icons div {
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 2.2rem;
+}
+
+.skills-icons svg {
+  margin-right: 8px;
+}
