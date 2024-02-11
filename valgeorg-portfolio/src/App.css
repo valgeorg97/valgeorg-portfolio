@@ -1,0 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); */
+
+
+/***NAVBAR**/
+.navbar .nav-link {
+  color: white !important; /* Make links white */
+  font-weight: bold !important; /* Increase font weight */
+  font-family: 'Cursive', sans-serif !important; /* Apply cursive font style */
+  margin: 0 10px;
+}
+.navbar .nav-link:hover {
+  color:#03FA6E !important;
+}
