@@ -7,16 +7,16 @@ import meteoMate from "../../assets/MeteoMate.png"
 const Projects = () => {
   return (
     <div class="container">
-
+        <h1 className="row align-text-center">PROJECTS</h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
             <img src={meteoMate} alt="meteoApp" height={300} width="100%" className='custom-image'/>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">MeteoMate is a Weather app, built with React, CSS.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Got to project</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Go to project</button>
                 </div>
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
@@ -29,7 +29,7 @@ const Projects = () => {
           <div class="card shadow-sm">
             <img src={c4u} alt="e-commerce app" height={300} width="100%"/>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Product listing e-commerce (without Cart, Favorites, Login functionality)</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -44,7 +44,7 @@ const Projects = () => {
           <div class="card shadow-sm">
             <img src={evalue} alt="full-stack e-commerce" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Full-stack E-commerce website, with Cart, Favorites and Login functionality.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -60,7 +60,7 @@ const Projects = () => {
           <div class="card shadow-sm">
             <img src={energize} alt="fitness app" height={300} width="100%"/>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Fitness Tracker App, my final project at Telerik Academy. (not responsive)</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
