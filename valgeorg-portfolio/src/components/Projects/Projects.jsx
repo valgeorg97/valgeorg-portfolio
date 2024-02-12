@@ -3,23 +3,27 @@ import energize from "../../assets/Energize2.png"
 import c4u from "../../assets/c4u2.png"
 import evalue from "../../assets/e-value.png"
 import meteoMate from "../../assets/MeteoMate.png"
+import coming_soon from "../../assets/coming_soon.jpg"
 
 const Projects = () => {
   return (
     <div class="container">
-        <h1 className="row align-text-center">PROJECTS</h1>
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <img src={meteoMate} alt="meteoApp" height={300} width="100%" className='custom-image'/>
+            <img src={meteoMate} alt="meteoApp" height={300} width="100%" className='custom-image' />
             <div class="card-body">
-              <p class="card-text">MeteoMate is a Weather app, built with React, CSS.</p>
+              <p class="card-text">MeteoMate is a Weather app, built with React, CSS. Current weather, 3 day forecast.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Go to project</button>
+                <div className="btn-group">
+                  <a href="https://meteo-mate.web.app/current-weather" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
                 </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/meteo-mate/tree/main/meteo-mate" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
               </div>
             </div>
@@ -27,15 +31,16 @@ const Projects = () => {
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src={c4u} alt="e-commerce app" height={300} width="100%"/>
+            <img src={c4u} alt="e-commerce app" height={300} width="100%" />
             <div class="card-body">
               <p class="card-text">Product listing e-commerce (without Cart, Favorites, Login functionality)</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div className="btn-group">
+                  <a href="https://product-listing-c4u.web.app/women/show%20all" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/c-4-u-product-listing-" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
               </div>
             </div>
           </div>
@@ -46,11 +51,12 @@ const Projects = () => {
             <div class="card-body">
               <p class="card-text">Full-stack E-commerce website, with Cart, Favorites and Login functionality.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div className="btn-group">
+                  <a href="https://e-value-37653.web.app/" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/E-Value" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
               </div>
             </div>
           </div>
@@ -58,45 +64,32 @@ const Projects = () => {
 
         <div class="col">
           <div class="card shadow-sm">
-            <img src={energize} alt="fitness app" height={300} width="100%"/>
+            <img src={energize} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
               <p class="card-text">Fitness Tracker App, my final project at Telerik Academy. (not responsive)</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div className="btn-group">
+                  <a href="https://energize-57e14.web.app" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/enrgz-fit-tracker-app" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src={coming_soon} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Music app built with NextJS and Tailwind CSS. Stay tuned..</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <div className="btn-group">
+                  <a href="https://your-project-url.com" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                <div className="btn-group">
+                  <a href="https://github.com/your-github-url" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
               </div>
             </div>
           </div>

@@ -49,11 +49,13 @@ const Home = () => {
   <div className="d-grid gap-2 d-md-flex justify-content-center">
             <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/" 
                className="btn btn-lg px-4 me-md-2" 
+               target="_blank"
                role="button" 
                aria-label="LinkedIn">
               <img src={linkedinIcon} alt="LinkedIn" height="50" width="50"/> 
             </a>
             <a href="https://github.com/valgeorg97" 
+            target="_blank"
                className="btn btn-lg px-4 me-md-2" 
                role="link" 
                aria-label="GitHub">
