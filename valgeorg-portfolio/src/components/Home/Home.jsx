@@ -35,6 +35,8 @@ import React from 'react';
 import vg from "../../assets/pic2.png";
 import test from "../../assets/vg-test.png"
 import test1 from "../../assets/test1.png"
+import { ImLinkedin } from "react-icons/im";
+import { VscGithubInverted } from "react-icons/vsc";
 
 const Home = () => {
   return (
@@ -43,25 +45,25 @@ const Home = () => {
         <div className="container overflow-hidden">
           <div className="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-around">
             <div className="col-12 col-lg-6 order-1 order-lg-0 justify-content-center text-center ">
-            <h1 className="display-5 fw-bold mb-3">Welcome to my Portfolio!</h1>
+              <h1 className="display-5 fw-bold mb-3">Welcome to my Portfolio!</h1>
               <h2 className="display-5 fw-bold mb-3">I'm Valentin Georgiev</h2>
               <p className="fs-2 mb-5">Software Developer</p>
-  <div className="d-grid gap-2 d-md-flex justify-content-center">
-            <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/" 
-               className="btn btn-lg px-4 me-md-2" 
-               target="_blank"
-               role="button" 
-               aria-label="LinkedIn">
-              <img src={linkedinIcon} alt="LinkedIn" height="50" width="50"/> 
-            </a>
-            <a href="https://github.com/valgeorg97" 
-            target="_blank"
-               className="btn btn-lg px-4 me-md-2" 
-               role="link" 
-               aria-label="GitHub">
-              <img src={githubIcon} alt="GitHub" height="50" width="50"/>
-            </a>
-          </div>
+              <div className="d-grid gap-2 d-md-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/" 
+                   className="social-icon btn btn-lg px-4 me-md-2" 
+                   target="_blank"
+                   role="button" 
+                   aria-label="LinkedIn">
+                  <ImLinkedin color="#0d6efd" size="50" /> {/* Blue LinkedIn icon */}
+                </a>
+                <a href="https://github.com/valgeorg97" 
+                   target="_blank"
+                   className="social-icon btn btn-lg px-4 me-md-2" 
+                   role="link" 
+                   aria-label="GitHub">
+                  <VscGithubInverted size="50" /> {/* GitHub icon */}
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-5 text-center">
               <div className="position-relative">
