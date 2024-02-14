@@ -1,24 +1,53 @@
-import React from 'react'
+import React from 'react';
+import { FiPhoneCall } from 'react-icons/fi';
+import { SiMinutemailer } from 'react-icons/si';
+import { ImLinkedin } from 'react-icons/im';
+import { VscGithubInverted } from 'react-icons/vsc';
+import { IoCloudDownloadOutline } from 'react-icons/io5';
 
 const Footer = () => {
+  const handleDownloadCV = () => {
+    // Logic to download CV
+    // Example: window.location.href = 'URL_TO_YOUR_CV.pdf';
+  };
+
   return (
-    <div className="container">
-    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p className="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
-  
-      <a href="/" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg className="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-  
-      <ul className="nav col-md-4 justify-content-end">
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Projects</a></li>
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Contacts</a></li>
-      </ul>
+    <footer className="bg-dark text-white pt-4 pb-2 mt-5">
+      <div className="container">
+        <h2 className="text-center mb-4">Let's get in touch</h2>
+        <div className="row justify-content-between">
+          <div className="col-md-5">
+            <h5>Email & Phone</h5>
+            <div><SiMinutemailer size="24" /> valentingg1997@gmail.com</div>
+            <div><FiPhoneCall size="24" /> +359898638967</div>
+          </div>
+          <div className="col-md-5 text-md-end">
+            <h5>Social & CV</h5>
+            <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/" className="text-white me-3">
+              <ImLinkedin size="24" />
+            </a>
+            <a href="https://github.com/valgeorg97" className="text-white me-3">
+              <VscGithubInverted size="24" />
+            </a>
+            <button className="btn btn-outline-light" onClick={handleDownloadCV}>
+              CV <IoCloudDownloadOutline size="24" />
+            </button>
+          </div>
+        </div>
+        <hr className="my-4" />
+        <div className="row justify-content-between">
+          <div className="col-md-6">
+            <p>© 2024 VG Portfolio. All rights reserved.</p>
+          </div>
+          <div className="col-md-6 text-md-end">
+            <a href="#" className="text-white me-3">Home</a>
+            <a href="#" className="text-white me-3">About</a>
+            <a href="#" className="text-white">Projects</a>
+          </div>
+        </div>
+      </div>
     </footer>
-  </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
