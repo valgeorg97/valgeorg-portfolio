@@ -24,13 +24,13 @@ const Footer = () => {
           <div className="col-md-5 text-md-end">
             <h5>Social & CV</h5>
             <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/" className="text-white me-3">
-              <ImLinkedin size="24" />
+              <ImLinkedin size="24" className='social-icon'/>
             </a>
-            <a href="https://github.com/valgeorg97" className="text-white me-3">
-              <VscGithubInverted size="24" />
+            <a href="https://github.com/valgeorg97" className="text-white me-3 social-icon">
+              <VscGithubInverted size="24" className='social-icon' />
             </a>
-            <button className="btn btn-outline-light" onClick={handleDownloadCV}>
-              CV <IoCloudDownloadOutline size="24" />
+            <button className="btn btn-light" onClick={handleDownloadCV}>
+              CV <IoCloudDownloadOutline size="18" className='social-icon'/>
             </button>
           </div>
         </div>
