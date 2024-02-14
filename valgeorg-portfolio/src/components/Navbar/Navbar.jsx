@@ -22,9 +22,6 @@ const Navbar = () => {
             <li className="nav-item">
               <ScrollLink className="nav-link" to="projects" smooth={true} duration={200}>Projects</ScrollLink>
             </li>
-            <li className="nav-item">
-              <ScrollLink className="nav-link" to="contacts" smooth={true} duration={200}>Contacts</ScrollLink>
-            </li>
           </ul>
         </div>
       </div>

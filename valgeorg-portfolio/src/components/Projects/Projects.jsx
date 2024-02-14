@@ -12,9 +12,25 @@ const Projects = () => {
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+      <div class="col">
+          <div class="card shadow-md">
+            <img src={evalue} alt="full-stack e-commerce" height={300} width="100%" />
+            <div class="card-body">
+              <p class="card-text">Full-stack E-commerce website, with Cart, Favorites and Login functionality.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                  <a href="https://e-value-37653.web.app/" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
+                </div>
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/E-Value" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card shadow-md">
             <img src={meteoMate} alt="meteoApp" height={300} width="100%" className='custom-image' />
             <div class="card-body">
               <p class="card-text">MeteoMate is a Weather app, built with React, CSS. Current weather, 3 day forecast.</p>
@@ -30,7 +46,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card shadow-md">
             <img src={c4u} alt="e-commerce app" height={300} width="100%" />
             <div class="card-body">
               <p class="card-text">Product listing e-commerce (without Cart, Favorites, Login functionality)</p>
@@ -46,24 +62,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
-            <img src={evalue} alt="full-stack e-commerce" height={300} width="100%" />
-            <div class="card-body">
-              <p class="card-text">Full-stack E-commerce website, with Cart, Favorites and Login functionality.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              <div className="btn-group">
-                  <a href="https://e-value-37653.web.app/" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
-                </div>
-                <div className="btn-group">
-                  <a href="https://github.com/valgeorg97/E-Value" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
+          <div class="card shadow-md">
             <img src={energize} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
               <p class="card-text">Fitness Tracker App, my final project at Telerik Academy. (not responsive)</p>
@@ -79,7 +78,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card shadow-md">
             <img src={coming_soon} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
               <p class="card-text">Music app built with NextJS and Tailwind CSS. Stay tuned..</p>

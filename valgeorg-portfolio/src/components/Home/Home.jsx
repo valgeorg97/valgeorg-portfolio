@@ -45,23 +45,25 @@ const Home = () => {
         <div className="container overflow-hidden">
           <div className="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-around">
             <div className="col-12 col-lg-6 order-1 order-lg-0 justify-content-center text-center ">
+              <div className="home-text">
               <h1 className="display-5 fw-bold mb-3">Welcome to my Portfolio!</h1>
               <h2 className="display-5 fw-bold mb-3">I'm Valentin Georgiev</h2>
               <p className="fs-2 mb-5">Software Developer</p>
+              </div>
               <div className="d-grid gap-2 d-md-flex justify-content-center">
                 <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/" 
                    className="social-icon btn btn-lg px-4 me-md-2" 
                    target="_blank"
                    role="button" 
                    aria-label="LinkedIn">
-                  <ImLinkedin color="#0d6efd" size="50" /> {/* Blue LinkedIn icon */}
+                  <ImLinkedin color="#0d6efd" size="50" /> 
                 </a>
                 <a href="https://github.com/valgeorg97" 
                    target="_blank"
                    className="social-icon btn btn-lg px-4 me-md-2" 
                    role="link" 
                    aria-label="GitHub">
-                  <VscGithubInverted size="50" /> {/* GitHub icon */}
+                  <VscGithubInverted size="50" /> 
                 </a>
               </div>
             </div>
