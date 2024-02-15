@@ -38,13 +38,11 @@ import test1 from "../../assets/test1.png"
 import { ImLinkedin } from "react-icons/im";
 import { VscGithubInverted } from "react-icons/vsc";
 import { IoCloudDownloadOutline } from 'react-icons/io5';
+import CV from '../../assets/Valentin-Georgiev-CV.pdf'
 import cv from '../../assets/cv.png'
 
 const Home = () => {
-  const handleDownloadCV = () => {
-    // Logic to download CV
-    // Example: window.location.href = 'URL_TO_YOUR_CV.pdf';
-  };
+
   return (
     <>
       <div className="py-3 py-lg-5 py-xl-8">
@@ -52,11 +50,11 @@ const Home = () => {
           <div className="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-between">
             <div className="col-12 col-lg-6 order-1 order-lg-0 justify-content-center text-center ">
               <div className="home-text">
-                <h1 className="display-5 mb-3">Hello,</h1>
+                <h1 className="display-5 mb-3">Hello World,</h1>
                 <h2 className="display-5 mb-3 home-name">I'm <span className="name-color">Valentin Georgiev.</span></h2>
-                <p className="fs-2 mb-5 soft-dev">Software Developer</p>
+                <p className="fs-2 mb-5 soft-dev">Front-end Web Developer</p>
               </div>
-              <div className="d-grid d-md-flex justify-content-center gap-2">
+              <div className="d-grid d-md-flex d-sm-flex justify-content-center gap-2">
                 <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/"
                   className="social-icon btn btn-lg"
                   target="_blank"
@@ -71,7 +69,7 @@ const Home = () => {
                   aria-label="GitHub">
                   <VscGithubInverted size="50" />
                 </a>
-                <a href="URL_TO_YOUR_CV.pdf" target="_blank" className="cv-link social-icon mt-1" aria-label="Download CV">
+                <a href={CV} download="Valentin-Georgiev-CV.pdf" target="_blank" className="cv-link social-icon mt-1" aria-label="Download CV">
                   <img src={cv} alt="Download CV" style={{ width: '55px', height: '55px' }} />
                 </a>
               </div>
