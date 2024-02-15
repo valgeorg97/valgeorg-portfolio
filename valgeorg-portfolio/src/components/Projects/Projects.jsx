@@ -12,7 +12,7 @@ const Projects = () => {
         <h3 className="text-secondary mb-0">Portfolio</h3>
         <h2 className="mb-5">Recent Projects</h2>
       </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-5">
         <div class="col">
           <div class="card shadow-md">
             <img src={evalue} alt="full-stack e-commerce" height={300} width="100%" />
