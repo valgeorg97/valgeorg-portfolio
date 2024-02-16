@@ -17,7 +17,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={evalue} alt="full-stack e-commerce" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Full-stack E-commerce website, with Cart, Favorites and Login functionality.</p>
+              <p class="card-text">Responsive Full-stack E-commerce website. Built with TypeScript, React, CSS, and Firebase.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://e-value-37653.web.app/" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
@@ -33,7 +33,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={meteoMate} alt="meteoApp" height={300} width="100%" className='custom-image' />
             <div class="card-body">
-              <p class="card-text">MeteoMate is a Weather app, built with React, CSS. Current weather, 3 day forecast.</p>
+              <p class="card-text">Weather app that allows you to search for a specific location and retrieve weather information.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://meteo-mate.web.app/current-weather" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
@@ -49,7 +49,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={c4u} alt="e-commerce app" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Product listing e-commerce (without Cart, Favorites, Login functionality)</p>
+              <p class="card-text">C4U is a mobile-compatible product-listing application built with TypeScript, React and Chakra UI.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://product-listing-c4u.web.app/women/show%20all" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
@@ -65,7 +65,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={energize} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Fitness Tracker App, my final project at Telerik Academy. (not responsive)</p>
+              <p class="card-text">Full-stack Fitness Tracker App, built with React, Chakra UI and Firebase.(Final project at Telerik)</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://energize-57e14.web.app" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
@@ -81,7 +81,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={coming_soon} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Music app built with NextJS and Tailwind CSS. Stay tuned..</p>
+              <p class="card-text">Music app built with NextJS and Tailwind CSS. Currently working on it, stay tuned..</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://your-project-url.com" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
