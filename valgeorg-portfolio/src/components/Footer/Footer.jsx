@@ -12,8 +12,8 @@ const Footer = () => {
     <footer className="bg-dark text-white pt-4 pb-2 mt-5">
       <div className="container">
         <h2 className="text-center mb-4">Let's get in touch</h2>
-        <div className="row justify-content-between align-items-center">
-          <div className="col-sm-6 text-center text-sm-start mb-sm-5">
+        <div className="row justify-content-between align-items-start">
+          <div className="col-sm-6 text-center text-sm-start mb-4 mb-sm-0">
             <h5>Email & Phone</h5>
             <div className="mb-2"><SiMinutemailer size="24" /> valentingg1997@gmail.com</div>
             <div><FiPhoneCall size="24" /> +359898638967</div>
