@@ -39,7 +39,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-12 col-lg-5 text-center mb-sm-3">
-              <div className="position-relative">
+              <div className="position-relative mb-5">
                 <div className="bsb-circle border border-4 border-warning position-absolute top-50 start-10 translate-middle z-1"></div>
                 <div className="bsb-circle bg-primary position-absolute top-50 start-50 translate-middle" style={{ "--bsb-cs": "460px" }}></div>
                 <div className="bsb-circle border border-4 border-warning position-absolute top-10 end-0 z-1" style={{ "--bsb-cs": "100px" }}></div>
