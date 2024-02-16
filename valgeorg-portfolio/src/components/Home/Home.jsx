@@ -1,5 +1,5 @@
 import React from 'react';
-import test1 from "../../assets/test1.png"
+import test1 from "../../assets/hero-img.png"
 import { ImLinkedin } from "react-icons/im";
 import { VscGithubInverted } from "react-icons/vsc";
 import CV from '../../assets/Valentin-Georgiev-CV.pdf'
@@ -38,7 +38,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="col-12 col-lg-5 text-center">
+            <div className="col-12 col-lg-5 text-center mb-sm-3">
               <div className="position-relative">
                 <div className="bsb-circle border border-4 border-warning position-absolute top-50 start-10 translate-middle z-1"></div>
                 <div className="bsb-circle bg-primary position-absolute top-50 start-50 translate-middle" style={{ "--bsb-cs": "460px" }}></div>

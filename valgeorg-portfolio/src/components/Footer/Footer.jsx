@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container">
         <h2 className="text-center mb-4">Let's get in touch</h2>
         <div className="row justify-content-between align-items-center">
-          <div className="col-sm-6 text-center text-sm-start">
+          <div className="col-sm-6 text-center text-sm-start mb-sm-5">
             <h5>Email & Phone</h5>
             <div className="mb-2"><SiMinutemailer size="24" /> valentingg1997@gmail.com</div>
             <div><FiPhoneCall size="24" /> +359898638967</div>

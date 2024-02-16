@@ -1,5 +1,8 @@
 /* Import Space Mono font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+* {
+  font-family: 'Space Mono', cursive !important;
+}
 
 body{
 background: rgb(247,247,247);
@@ -87,12 +90,6 @@ h1 {
 .skills-icons svg {
   margin-right: 8px;
 }
-
-h1, h2{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-}
-
-
 /***Projects***/
 
 .card {
@@ -124,7 +121,7 @@ h1, h2{
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
-  font-family: cursive !important;
+  font-family: 'Space Mono', cursive !important;
 }
 
 .content-section-heading h2::after {
