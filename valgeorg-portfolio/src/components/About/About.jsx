@@ -16,7 +16,7 @@ const About = () => {
           <p className="lead">I'm Valyo, a passionate Front-end Web Developer whose journey in tech began more than a year ago at Telerik Academy. It equipped me with a robust understanding of web development principles and ignited my passion for creating dynamic user experiences.</p>
           <p className="lead">My expertise mainly lies in developing Single Page Applications that are efficient, visually appealing, and ahead of the curve. I have experience with React, TypeScript, Bootstrap, JavaScript, HTML, CSS, GIT, and Chakra UI. What sets me apart is my strong work ethic, unwavering dedication to exceeding client expectations, and proactive mindset. I thrive in fast-paced environments, readily embracing challenges and leveraging my ability to quickly adapt to new technologies. This ensures that I stay at the forefront of industry trends.</p>
           <div className="skills-section py-3">
-            <h2 className="fw-bold mb-3">Skills:</h2>
+            <h2 className="fw-bold mb-3 skills-header">Skills:</h2>
             <div className="skills-icons d-flex flex-wrap justify-content-start">
               <div><FaReact /></div>
               <div><SiTypescript /></div>

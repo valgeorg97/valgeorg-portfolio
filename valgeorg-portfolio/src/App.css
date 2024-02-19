@@ -54,7 +54,7 @@ background: linear-gradient(188deg, rgb(252, 252, 252) 32%, rgba(224,224,224,1) 
 /***About***/
 h1 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
-  font-size: 92px;
+  font-size: 80px;
   text-align: center;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -66,7 +66,7 @@ h1 {
 }
 .lead {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: #333;
   text-shadow: 0.5px 0.5px #fff;
@@ -79,12 +79,14 @@ h1 {
 .skills-section {
   text-align: left;
 }
-
+.skills-header{
+  font-size: 2rem;
+}
 .skills-icons div {
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .skills-icons svg {
