@@ -14,18 +14,18 @@ const About = () => {
         <div className="col-lg-6 mb-0">
           <h1 className="about-me display-5 fw-bold text-body-emphasis lh-1 mb-4">About me</h1>
           <p className="lead">I'm Valyo, a passionate Front-end Web Developer whose journey in tech began more than a year ago at Telerik Academy. It equipped me with a robust understanding of web development principles and ignited my passion for creating dynamic user experiences.</p>
-          <p className="lead">My expertise mainly lies in developing Single Page Applications that are efficient, visually appealing, and ahead of the curve. I have experience with React, TypeScript, Bootstrap, JavaScript, HTML, CSS, GIT, and Chakra UI. What sets me apart is my strong work ethic, unwavering dedication to exceeding client expectations, and proactive mindset. I thrive in fast-paced environments, readily embracing challenges and leveraging my ability to quickly adapt to new technologies. This ensures that I stay at the forefront of industry trends.</p>
+          <p className="lead">My expertise primarily extends to developing visually appealing, efficient, and innovative frontend solutions. I have experience with React, TypeScript, Bootstrap, JavaScript, HTML, CSS, GIT, and Chakra UI. What sets me apart is my strong work ethic, unwavering dedication to exceeding client expectations, and proactive mindset. I thrive in fast-paced environments, readily embracing challenges and leveraging my ability to quickly adapt to new technologies. This ensures that I stay at the forefront of industry trends.</p>
           <div className="skills-section py-3">
             <h2 className="fw-bold mb-3 skills-header">Skills:</h2>
             <div className="skills-icons d-flex flex-wrap justify-content-start">
-              <div><FaReact /></div>
-              <div><SiTypescript /></div>
-              <div><FaBootstrap /></div>
-              <div><SiJavascript /></div>
-              <div><FaHtml5 /></div>
-              <div><FaCss3Alt /></div>
-              <div><FaGitAlt /></div>
-              <div><SiChakraui /></div>
+              <div title='React'><FaReact /></div>
+              <div title='TypeScript'><SiTypescript /></div>
+              <div title='Bootstrap'><FaBootstrap /></div>
+              <div title='Javascript'><SiJavascript /></div>
+              <div title='HTML'><FaHtml5 /></div>
+              <div title='CSS'><FaCss3Alt /></div>
+              <div title='Git'><FaGitAlt /></div>
+              <div title='ChakraUI'><SiChakraui /></div>
             </div>
           </div>
         </div>
