@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 import aboutMePhoto from "../../assets/climb.png";
-import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt } from 'react-icons/fa';
-import { SiTypescript, SiJavascript, SiChakraui } from 'react-icons/si';
-
+import { FaReact, FaHtml5, FaBootstrap, FaGitAlt } from 'react-icons/fa';
+import { SiTypescript, SiJavascript, SiChakraui, SiMongodb, SiNodedotjs, SiTailwindcss } from 'react-icons/si';
 
 const About = () => {
   return (
@@ -13,21 +12,50 @@ const About = () => {
         </div>
         <div className="col-lg-6 mb-0">
           <h1 className="about-me display-5 fw-bold text-body-emphasis lh-1 mb-4">About me</h1>
-          <p className="lead">I'm Valyo, a passionate Front-end Web Developer whose journey in tech began more than a year ago at Telerik Academy. It equipped me with a robust understanding of web development principles and ignited my passion for creating dynamic user experiences.</p>
-          <p className="lead">My expertise primarily extends to developing visually appealing, efficient, and innovative frontend solutions. I have experience with React, TypeScript, Bootstrap, JavaScript, HTML, CSS, GIT, and Chakra UI. What sets me apart is my strong work ethic, unwavering dedication to exceeding client expectations, and proactive mindset. I thrive in fast-paced environments, readily embracing challenges and leveraging my ability to quickly adapt to new technologies. This ensures that I stay at the forefront of industry trends.</p>
-          <div className="skills-section py-3">
-            <h2 className="fw-bold mb-3 skills-header">Skills:</h2>
-            <div className="skills-icons d-flex flex-wrap justify-content-start">
-              <div title='React'><FaReact /></div>
-              <div title='TypeScript'><SiTypescript /></div>
-              <div title='Bootstrap'><FaBootstrap /></div>
-              <div title='Javascript'><SiJavascript /></div>
-              <div title='HTML'><FaHtml5 /></div>
-              <div title='CSS'><FaCss3Alt /></div>
-              <div title='Git'><FaGitAlt /></div>
-              <div title='ChakraUI'><SiChakraui /></div>
-            </div>
+          <p className="lead">I'm Valyo, a passionate Fullstack Developer whose journey in tech began more than a year ago at Telerik Academy. 
+          It equipped me with a robust understanding of web development principles and ignited my passion for creating dynamic user experiences.</p>
+          <p className="lead">I have experience with the following technologies:</p>
+          <div className="table-responsive">
+            <table className="table">
+              <tbody>
+                <tr>
+                  <td><FaReact /></td>
+                  <td>React</td>
+                  <td><SiTypescript /></td>
+                  <td>TypeScript</td>
+                </tr>
+                <tr>
+                  <td><FaBootstrap /></td>
+                  <td>Bootstrap</td>
+                  <td><SiTailwindcss /></td>
+                  <td>Tailwind CSS</td>
+                </tr>
+                <tr>
+                  <td><SiJavascript /></td>
+                  <td>JavaScript</td>
+                  <td><SiNodedotjs /></td>
+                  <td>Node.js/Express.js</td>
+                </tr>
+                <tr>
+                  <td><SiMongodb /></td>
+                  <td>MongoDB</td>
+                  <td><FaHtml5 /></td>
+                  <td>HTML/CSS</td>
+                </tr>
+                <tr>
+                  <td><FaGitAlt /></td>
+                  <td>GIT</td>
+                  <td><SiChakraui /></td>
+                  <td>Chakra UI</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <p className="lead">
+            What sets me apart is my strong work ethic and proactive mindset. 
+            I thrive in fast-paced environments, readily embracing challenges and leveraging my ability to quickly adapt to new technologies. 
+            This ensures that I stay at the forefront of industry trends.
+          </p>
         </div>
       </div>
     </div>
@@ -35,4 +63,3 @@ const About = () => {
 }
 
 export default About;
-

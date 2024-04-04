@@ -16,7 +16,7 @@ const Home = () => {
               <div className="home-text">
                 <h1 className="display-5 mb-3">Hello World,</h1>
                 <h2 className="display-5 mb-3 home-name">I'm <span className="name-color">Valentin Georgiev.</span></h2>
-                <p className="fs-2 mb-5 soft-dev">Front-end Web Developer</p>
+                <p className="fs-2 mb-5 soft-dev">Fullstack Developer</p>
               </div>
               <div className="d-flex justify-content-center gap-2">
                 <a href="https://www.linkedin.com/in/valentin-georgiev-414950160/"
