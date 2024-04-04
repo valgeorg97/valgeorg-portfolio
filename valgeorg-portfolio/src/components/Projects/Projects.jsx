@@ -4,6 +4,7 @@ import c4u from "../../assets/c4u2.png"
 import evalue from "../../assets/e-value.png"
 import meteoMate from "../../assets/MeteoMate.png"
 import coming_soon from "../../assets/coming_soon.jpg"
+import to_do_list from "../../assets/to-do-list.png"
 
 const Projects = () => {
   return (
@@ -24,6 +25,19 @@ const Projects = () => {
                 </div>
                 <div className="btn-group">
                   <a href="https://github.com/valgeorg97/E-Value" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-md">
+            <img src={to_do_list} alt="to-do-list" height={300} width="100%" />
+            <div class="card-body">
+              <p class="card-text">Responsive Todo-list app built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/To-Do-List" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
               </div>
             </div>
