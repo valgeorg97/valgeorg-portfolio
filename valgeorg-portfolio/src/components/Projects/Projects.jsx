@@ -18,7 +18,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={evalue} alt="full-stack e-commerce" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Responsive Full-stack E-commerce website. Built with TypeScript, React, CSS, and Firebase.</p>
+              <p class="card-text">Responsive Fullstack E-commerce website. Built with TypeScript, React, CSS, and Firebase.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://e-value-37653.web.app/" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
@@ -34,8 +34,11 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={to_do_list} alt="to-do-list" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Responsive Todo-list app built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS.</p>
-              <div class="d-flex justify-content-center align-items-center">
+              <p class="card-text">Responsive Todo-list app built with MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                  <a href="https://to-do-list-green-rho.vercel.app/" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
+                </div>
                 <div className="btn-group">
                   <a href="https://github.com/valgeorg97/To-Do-List" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
@@ -79,7 +82,7 @@ const Projects = () => {
           <div class="card shadow-md">
             <img src={energize} alt="fitness app" height={300} width="100%" />
             <div class="card-body">
-              <p class="card-text">Full-stack Fitness Tracker App, built with React, Chakra UI and Firebase.(Final project at Telerik)</p>
+              <p class="card-text">Fullstack Fitness Tracker App, built with React, Chakra UI and Firebase.(Final project at Telerik)</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a href="https://energize-57e14.web.app" target="_blank" className="btn btn-sm btn-outline-secondary">Go to project</a>
