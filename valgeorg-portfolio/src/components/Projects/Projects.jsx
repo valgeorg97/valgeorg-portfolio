@@ -5,6 +5,7 @@ import evalue from "../../assets/e-value.png"
 import meteoMate from "../../assets/MeteoMate.png"
 import coming_soon from "../../assets/coming_soon.jpg"
 import to_do_list from "../../assets/to-do-list.png"
+import notehub from "../../assets/notehub.png"
 
 const Projects = () => {
   return (
@@ -41,6 +42,19 @@ const Projects = () => {
                 </div>
                 <div className="btn-group">
                   <a href="https://github.com/valgeorg97/To-Do-List" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-md">
+            <img src={notehub} alt="full-stack e-commerce" height={300} width="100%" />
+            <div class="card-body">
+              <p class="card-text">Responsive Note app, built with PERN stack (PostgreSQL, Express.js, React.js, Node.js) and Tailwind CSS.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div className="btn-group">
+                  <a href="https://github.com/valgeorg97/NoteHub" target="_blank" className="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
               </div>
             </div>
